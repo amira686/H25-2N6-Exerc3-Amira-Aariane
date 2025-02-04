@@ -9,12 +9,17 @@
 
 
 import os
-
+print()
+print(__file__)
+print(os.path.dirname(__file__))
+os.chdir(os.path.dirname(__file__))
+print(os.getcwd())
+print()
 
 chemin = os.path.join(os.environ.get('USERPROFILE'), 'Documents', 'GitHub', 'H25-2N6-Exerc3-Amira-Aariane', 'R03 Exercices Depart', 'R03 Exercices Depart', 'Ex3 Videos')
 os.chdir(chemin)
 liste = os.listdir(chemin)
 for item in list:
-    os.path.splitext(item)
+    print('item')
 
 

@@ -26,7 +26,7 @@ os.chdir(os.path.dirname(__file__))   # Elles permettent de se positionner dans 
 
 ficher_a_lire = os.path.join("csvs","Ex4 Emplois Reseautique.csv" )
 
-print("Vincent")
+
 
 
 
